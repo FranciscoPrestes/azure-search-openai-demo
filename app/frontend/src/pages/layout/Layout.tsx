@@ -38,7 +38,10 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer} ref={menuRef}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>Azure OpenAI + AI Search</h3>
+                        <h3>
+                            <img src="/hamsa-brain-pet.png" aria-hidden="true" aria-label="Chat logo" width={50}></img>
+                        </h3>
+                        <h3 className={styles.headerTitle}>Hamsa Brain</h3>
                     </Link>
                     <nav>
                         <ul className={`${styles.headerNavList} ${menuOpen ? styles.show : ""}`}>
