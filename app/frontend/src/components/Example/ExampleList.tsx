@@ -2,16 +2,12 @@ import { Example } from "./Example";
 
 import styles from "./Example.module.css";
 
-const DEFAULT_EXAMPLES: string[] = [
-    "What is included in my Northwind Health Plus plan that is not in standard?",
-    "What happens in a performance review?",
-    "What does a Product Manager do?"
-];
+const DEFAULT_EXAMPLES: string[] = ["Tell me about Hamsa Team?", "Tell me about Hamsa Products?", "What is DREX CBDC?"];
 
 const GPT4V_EXAMPLES: string[] = [
-    "Compare the impact of interest rates and GDP in financial markets.",
-    "What is the expected trend for the S&P 500 index over the next five years? Compare it to the past S&P 500 performance",
-    "Can you identify any correlation between oil prices and stock market trends?"
+    "Can you give me some exemples of how to use Hamsa API to generate a token?",
+    "Can you give me some exemples of use cases of each product of Hamsa?",
+    "Can you askme some questions and help me to understands how Hamsa can Help my company?"
 ];
 
 interface Props {
